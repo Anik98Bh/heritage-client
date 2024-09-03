@@ -4,9 +4,9 @@ const Navbar = () => {
         <>
             <div className="navbar bg-[#ECF5FF]">
                 <div className="navbar-start ml-10 font-montserrat gap-4">
-                    <a href="">Homepage</a>
-                    <a href="">Portfolio</a>
-                    <a href="">About</a>
+                    <a href="">Buy</a>
+                    <a href="">Sell</a>
+                    <a href="">Services</a>
                 </div>
                 <div className="navbar-center">
                     <a className="">
