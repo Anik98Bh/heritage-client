@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CiLocationOn } from "react-icons/ci";
 
-const PopularProperties = () => {
+const NewListedProperties = () => {
     const [properties, setProperties] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
@@ -16,7 +16,7 @@ const PopularProperties = () => {
     return (
         <div className="mt-10">
             <div className="flex justify-between">
-                <h2 className="text-2xl font-bold font-montserrat">Popular Properties</h2>
+                <h2 className="text-2xl font-bold font-montserrat">New Listed Properties</h2>
                 <p className="text-[#0059B1] underline font-bold">See all propeety</p>
             </div>
             <div className="grid grid-cols-3 gap-5 mt-5">
@@ -44,4 +44,4 @@ const PopularProperties = () => {
     );
 };
 
-export default PopularProperties;
+export default NewListedProperties;
